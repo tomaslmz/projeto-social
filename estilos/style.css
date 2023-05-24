@@ -18,7 +18,7 @@ main {
     position: relative;
 }
 
-article#celular {
+section#celular {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,4 +37,23 @@ iframe#tela {
     left: 22px;
     width: 270px;
     height: 471px;
+}
+
+section#botoes {
+    text-align: right;
+}
+
+section#botoes img {
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.380);
+    box-sizing: border-box;
+}
+
+section#botoes img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664);
+    transition: transform 0.3s;
 }
