@@ -18,9 +18,30 @@
         }
 
         img {
-           background-size: cover;
-           background-position: top center;
-           width: 100vw;
+            pointer-events: none;
+            user-select: none;
+            background-size: cover;
+            background-position: top center;
+            width: 100vw;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+
+        a {
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+            padding: 50px;
+            text-align: center;
+            display: block;
+            background-color: rgb(116, 8, 8);
+        }
+
+        a:hover {
+            background-color: rgb(158, 12, 12);
         }
     </style>
 </head>
