@@ -8,6 +8,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-image: url('../imagens/fundo-madeira.jpg');
+    background-color: #887A5A;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
