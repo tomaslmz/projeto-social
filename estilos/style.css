@@ -58,3 +58,17 @@ section#botoes img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664);
     transition: transform 0.3s;
 }
+
+@media screen and (max-width: 480px) {
+    br {
+        display: none;
+    }
+
+    section#botoes img {
+        border-radius: 50%;
+        width: 40px;
+        margin: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.380);
+        box-sizing: border-box;
+    }
+}
