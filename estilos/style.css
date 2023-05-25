@@ -34,10 +34,10 @@ section#celular {
 
 iframe#tela {
     position: relative;
-    top: 80px;
-    left: 22px;
+    top: 79px;
+    left: 20px;
     width: 270px;
-    height: 471px;
+    height: 473px;
 }
 
 section#botoes {
